@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ladies Can STEM </title>
+  <style>
+    body{
+        
+        background-image: url('images/tech.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        height: 70px; width: 100%;
+      
+    }    
+      </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+        <div class="logo" >
+            <h4 style="margin-top: -10px;">Ladies Can STEM</h4><br>
+           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                
+                
+                <li><a href="#" >Experience</a></li>
+      
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+  <center> <div class="container">
+
+    <form action="process.php" method="post" style="margin-top: -1.5%; margin-bottom:2%;">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="username">User Name:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="userType">User Type:</label>
+      <select id="userType" name="userType" required>
+          <option value="">Select User Type</option>
+          <option value="mentor">Mentor</option>
+          <option value="mentee">Mentee</option>
+      </select>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Register">||<a href="Login.html"> Login</a>
+  </form>
+      </div>
+    </center> 
+ 
+  <footer style="background-color:maroon; height: 60px; width: 100%; position: fixed; bottom: 0; text-align: center; display: flex; align-items: center; justify-content: center;">
+    <span style="color: white;">© 2023 Foibe Uwizeyimana. All rights reserved.</span>
+</footer>
+
+</body>
+</html>

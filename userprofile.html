@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladies Can STEM </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: #45a049;
+            background-color: #f1ebeb;
+        }
+        th, td {
+            padding: 8px;
+            border-bottom: 2px solid #f1ebeb;
+            text-align: left;
+        }
+        input[type="text"], input[type="email"], input[type="number"], select, input[type="file"] {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+                </head>
+
+<body style="margin: 0; padding: 0;">
+
+    
+   
+        <header>
+          <div class="header-content">
+              <div class="logo" >
+                  <h4 style="margin-top: -10px;">Foibe Uwizeyimana</h4><br>
+                 
+              </div>
+              <nav>
+                  <ul> <li><a href="Home.html">Home</a></li>
+                    <li><div class="dropdown">
+                        <span>LCS Programs</span>
+                        <div class="dropdown-content">
+                            <a href="Skills.html" class="dropdown-item">Mentorship Session</a>
+                            <a href="#" class="dropdown-item">Course Contents</a>
+                            <a href="project.html" class="dropdown-item">Job Opportunities</a>
+                            <a href="userprofile.html" class="dropdown-item">User Profile</a>
+                        </div>
+                    </div></li>
+                    <li><a href="#" >Experience</a></li>
+                    
+                    
+                  </ul>
+              </nav>
+          </div>
+      </header>
+     <h2>User Profile Form</h2>
+    <form action="profile.php" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <th colspan="2">User Information</th>
+                
+                <th colspan="2">Educational Level</th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="names" required></td>
+               
+            
+                <td>Degree:</td>
+                <td><input type="text" name="degree" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            
+                <td>Institution:</td>
+                <td><input type="text" name="institution" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="text" name="phone" required></td>
+                
+                <td>Major/Field of Study:</td>
+                <td><input type="text" name="major" required></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" required></td>
+                
+                <td>Graduation Year:</td>
+                <td><input type="number" name="gradYear" required></td>
+            </tr>
+        </table>
+        <button type="submit">Save</button>
+     </form>
+        <a href="Home.html" class="button" style="
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #050a0f;
+ 
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+
+  background-color: #0056b3;
+">Back Home</a>
+     
+
+    <footer style="background-color:maroon; height: 40px; width: 100%; position: fixed; bottom: 0; text-align: center; display: flex; align-items: center; justify-content: center;">
+        <span style="color: white;">© 2023 Foibe Uwizeyimana. All rights reserved.</span>
+    </footer>
+
+</body>
+
+</html>
